@@ -25,3 +25,5 @@ Here are some great resources to find APIs quickly by topics.
 [APIList.fun](https://apilist.fun/)
 
 [Programmable Web](https://www.programmableweb.com/apis/directory)
+
+**Inside this repo you will find starter code for the project. Clone this down and edit the README to reflect your project.**
