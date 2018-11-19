@@ -15,4 +15,4 @@ Created a pokemon website that acted as a Pokedex, which lets user look up pokem
 
 [PokeApi](https://pokeapi.co/)
 
-***pulls from the "pokemon name" endpoint and "sprites" endpoint.***
+***pulls from the "pokemon name" endpoint, "sprites" endpoint, and "generation" endpoint.***

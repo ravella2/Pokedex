@@ -31,4 +31,30 @@ $(document).ready(function() {
             $('.poke-result').append(invalidMessage);
         }
     });
+
+    $('.gen').on('click', function(){
+        //console.log("check");
+        var pokeClick = $('.gen').val();
+        //console.log(pokeClick);
+        var genUrl = `https://pokeapi.co/api/v2/generation/${pokeClick}/`;
+
+        $.ajax({
+            method: 'GET',
+            url: genUrl,
+            success: onSuccess,
+            error: onError
+        });
+
+        function onSuccess(response) {
+            console.log(response);
+            $('.poke-list').empty();
+            var pokeSpecies = `<li>${response.pokemon_species}</li>`;
+            console.log(pokeSpecies);
+
+        }
+
+        function onError(e1,e2,e3) {
+            console.log(e2);
+        }
+    });
 })
