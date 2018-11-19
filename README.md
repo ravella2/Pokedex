@@ -12,18 +12,4 @@ This assignment is open for you to explore different APIs and understand how the
 
 Some examples include:
 
-[Air Quality Api](https://docs.openaq.org/)
-
-[Food Api](https://spoonacular.com/food-api)
-
-[Video Api](https://developer.vimeo.com/api/start)
-
-and many other... think of something that you are interested in and look for it! 
-
-Here are some great resources to find APIs quickly by topics.
-
-[APIList.fun](https://apilist.fun/)
-
-[Programmable Web](https://www.programmableweb.com/apis/directory)
-
-**Inside this repo you will find starter code for the project. Clone this down and edit the README to reflect your project.**
+[PokeApi](https://pokeapi.co/)

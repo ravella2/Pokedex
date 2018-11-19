@@ -1,1 +1,38 @@
-/* happy stylin */
+@import url('https://fonts.googleapis.com/css?family=Spicy+Rice');
+
+body {
+    font-family: 'Spicy Rice', cursive;
+}
+
+header{
+    display: flex;
+    background-image: url(../imgs/pokeimage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 110px;
+}
+
+h1 {
+    font-family: 'Spicy Rice', cursive;
+    font-size: 38px;
+    text-align: center;
+    color: goldenrod;
+}
+
+h2 {
+    color: goldenrod;
+}
+
+.main {
+    display: flex;
+    border: 5px;
+    border-color: black;
+}
+
+.poke-intro {
+    flex-grow: 1;
+}
+form{
+    flex-grow: 3;
+}
+

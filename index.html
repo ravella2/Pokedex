@@ -6,10 +6,22 @@
 		<link rel="stylesheet" href="styles/styles.css">
 		<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="scripts/app.js" defer></script>
-		<title></title>
-
+		<title>PokeDex</title>
 	</head>
 	<body>
-		<!-- Add your HTML here -->
+		<header>
+			<h1>Pokedex</h1>
+		</header>
+		<div class="main">
+			<div class="poke-intro">
+			<p>The Pokédex is an electronic device designed to catalog and provide information regarding the various species of Pokémon featured in the Pokémon video game.</p>
+			</div>
+			<form class="poke-search">
+				<h2>Search for a Pokemon!</h2>
+				<input type="text" class="poke-input" placeholder="enter pokemon name">
+				<input type="submit" value="Go!">
+				<div class="poke-result"></div>
+			</form>
+		</div>
 	</body>
 </html>
