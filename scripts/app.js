@@ -11,7 +11,7 @@ $(document).ready(function() {
             method: 'GET',
             url: pokeURL,
             success: onSuccess,
-            error: onerror
+            error: onError
         });
 
         function onSuccess (response) {
@@ -23,11 +23,12 @@ $(document).ready(function() {
 
             pokePic = `<img src="${response.sprites.front_default}">`;
             $('.poke-result').append(pokePic);
-            
-            
+        }
 
-
-            
+        function onError() {
+            $(`.poke-result`).empty();
+            invalidMessage = `<p>No such Pokemon exists! Did you check your spelling?</p>`;
+            $('.poke-result').append(invalidMessage);
         }
     });
 })
