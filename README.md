@@ -1,8 +1,13 @@
 # API Lightning Learn Assignment
 
-## Deliverables
-
 Created a pokemon website that acted as a Pokedex, which lets user look up pokemon by name and returns its name, picture, and type.
+
+## Features
+
+-Ability to search for pokemon by name
+
+
+
 
 ## APIs Used
 

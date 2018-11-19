@@ -15,11 +15,14 @@ $(document).ready(function() {
         });
 
         function onSuccess (response) {
-            //console.log(response);
+            console.log(response);
             $('.poke-result').empty();
             
-            pokeName = `<p>${response.name}</p>`
+            pokeName = `<p>${response.name}</p>`;
             $('.poke-result').append(pokeName);
+
+            pokePic = `<img src="${response.sprites.front_default}">`;
+            $('.poke-result').append(pokePic);
             
             
 
